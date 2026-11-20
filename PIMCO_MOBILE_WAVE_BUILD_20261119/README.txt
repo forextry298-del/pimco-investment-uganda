@@ -1,0 +1,1 @@
+PIMCO mobile demo. Run: python server.py then open http://127.0.0.1:8000. Animated waves, floating particles, compact mobile layout and rotating sample activity are included. Transactions and balances are illustrative demo content only.

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#062d20"><title>PIMCO Investment Platform</title><link rel="stylesheet" href="static/style.css"></head>
+<body><div class="ambient" aria-hidden="true"><i></i><i></i><i></i><i></i><div id="particles"></div></div>
+<header><button onclick="toast('Menu preview')">☰</button><b>◇ PIMCO</b><button class="avatar" onclick="showPage('profile')">P</button></header>
+<main class="shell">
+<section class="page active" id="home"><small>INVESTMENT OVERVIEW</small><h1>Welcome back</h1><p class="muted">Your portfolio at a glance</p>
+<article class="panel balance"><small>AVAILABLE BALANCE</small><h2>UGX 235,600<span>.00</span></h2><p class="muted">Account balance · UGX 184,000.00</p><div class="actions"><button onclick="toast('Deposit demo preview only')">＋ Deposit</button><button onclick="toast('Withdrawal demo preview only')">↗ Withdraw</button></div></article>
+<h3>Account activity</h3><div class="stats"><article class="panel"><small>PRODUCT INCOME</small><b>UGX 45,000</b></article><article class="panel"><small>TODAY</small><b>45,000</b></article><article class="panel"><small>LAST MONTH INVITES</small><b>0</b></article><article class="panel"><small>THIS MONTH INVITES</small><b>347</b></article></div>
+<h3>Services</h3><div class="services"><button class="panel service" onclick="showPage('products')">◇<b>Products</b><small>Browse equipment</small></button><button class="panel service" onclick="showPage('income')">↗<b>Income</b><small>Activity preview</small></button></div>
+<article class="panel recent"><h3>Automatic activity preview</h3><div id="activity">Sample notifications rotate here.</div><small>SIMULATED DEMO — NOT REAL TRANSACTIONS</small></article></section>
+<section class="page" id="products"><small>PIMCO MARKETPLACE</small><h1>Medical products</h1><article class="panel product">✚ &nbsp; Patient monitor</article><article class="panel product">✚ &nbsp; First aid kit</article><article class="panel product">✚ &nbsp; Oxygen equipment</article></section>
+<section class="page" id="income"><small>ACCOUNT RECORDS</small><h1>Income activity</h1><article class="panel product">Demo figures only. No payments or earnings are processed.</article></section>
+<section class="page" id="profile"><small>ACCOUNT</small><h1>My profile</h1><article class="panel product">PIMCO Member · Mobile preview</article></section></main>
+<nav><button class="selected" data-page="home" onclick="showPage('home')">⌂<small>Home</small></button><button data-page="products" onclick="showPage('products')">◇<small>Products</small></button><button data-page="income" onclick="showPage('income')">↗<small>Income</small></button><button data-page="profile" onclick="showPage('profile')">○<small>Profile</small></button></nav><div id="toast"></div><script src="static/app.js"></script></body></html>
